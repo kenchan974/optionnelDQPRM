@@ -29,7 +29,7 @@ Le fichier `TAC.txt` contient les activités d'un patient pour différents organ
 ## Litterate Programming
 Chaque paire d'étudiants doit réaliser le calcul de l'activité cumulée pour chaque organe contenu dans le fichier `TAC_modifie.txt`.
 ### Python/Pweave
-Il est possible d'utiliser plusieurs outils pour faire du LP. Dans les exercices suivants, nous utiliserons le couple `Python/Pweave`. Par ailleurs, par simplicité pour les formateurs, les bibliothèques python `pandas` et `matplotlib` sont omposées.
+Il est possible d'utiliser plusieurs outils pour faire du LP. Dans les exercices suivants, nous utiliserons le couple `Python/Pweave`. Par ailleurs, par simplicité pour les formateurs, les bibliothèques python `pandas` et `matplotlib` sont imposées.
 
 Inspirer vous du fichier `demo_Pweave.pmd` pour créer votre document.
 ### EXERCICE 1:
@@ -40,7 +40,7 @@ Ces informations sont donnés par les attributs `__version__` de chaque biblioth
 pandas.__version__
 matplotlib.__version__
 ```
-
+	
 ### EXERCICE 2:
 Compléter le script ci-dessous pour modifier le fichier TAC.txt. Ajouter le nouveau fichier sur votre dépôt `git`.
 ```python
@@ -53,6 +53,6 @@ with open('nom_de_votre_nouveau_fichier', 'w') as f_out:
 	# utiliser par exemple la fonction replace() 
 ```		
 ### EXERCICE 3:
-Créer un graphique (ou plusieurs) qui affiche(nt) les courbes d'activités en fonction du temps.
+Créer un graphique (ou plusieurs) qui affiche(nt) les courbes d'activités en fonction du temps et insérer le graphique dans le document 'rapport.md'.
 ### EXERCICE 4:
-Calculer l'aire sous la courbe pour chacun des organes d'intérêt et noter directement les valeurs dans le rapport (sous forme de tableau pour les plus aguérris).
+Calculer l'aire sous la courbe pour chacun des organes d'intérêt et noter directement les valeurs dans le rapport (sous forme de tableau pour les plus aguerris).
