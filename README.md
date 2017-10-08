@@ -11,6 +11,12 @@ Il faut récupérer le fichier de travail sur ce site [github](https://github.co
 Dans un terminal, créer un répertoire de travail et s'y déplacer. Lancer la commande `git clone https://github.com/ludicludo/optionnelDQPRM`
 
 ### EXERCICE 1:
+Le fichier `README.md` est un fichier au format `markdown` suivi par git.
+Consulter l'historique des modifications de ce fichier.
+- Quelles modifications ont été réalisées sur le commit `d8afc81` ?
+- A quelle la date a été réalisée spécifiquement ce commit ?
+
+### EXERCICE 2:
 
 Le fichier `TAC.txt` contient les activités d'un patient pour différents organes d'intérêt. Les colonnes `L2L4` et `Rate` contiennent des données avec des virgules au lieu de points comme séparateur décimal. 
 
@@ -19,4 +25,4 @@ Le fichier `TAC.txt` contient les activités d'un patient pour différents organ
 - Chaque étudiant utilise Git pour garder une trace de ces modifications.
 - Chaque étudiant pousse ces modifications sur Github.
 
-### EXERCICE 2:
+### EXERCICE 3:
