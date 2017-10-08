@@ -9,20 +9,29 @@ Les étudiants doivent travailler en *binome* sur 2 ordinateurs différents pour
 ### Récupération du dépôt
 Il faut récupérer le fichier de travail sur ce site [github](https://github.com/ludicludo/optionnelDQPRM).
 Dans un terminal, créer un répertoire de travail et s'y déplacer. Lancer la commande `git clone https://github.com/ludicludo/optionnelDQPRM`
-
-### EXERCICE 1:
+### Utilisation de GIT
+#### EXERCICE 1:
 Le fichier `README.md` est un fichier au format `markdown` suivi par git.
 Consulter l'historique des modifications de ce fichier.
 - Quelles modifications ont été réalisées sur le commit `d8afc81` ?
 - A quelle la date a été réalisée spécifiquement ce commit ?
 
-### EXERCICE 2:
+#### EXERCICE 2:
 
 Le fichier `TAC.txt` contient les activités d'un patient pour différents organes d'intérêt. Les colonnes `L2L4` et `Rate` contiennent des données avec des virgules au lieu de points comme séparateur décimal. 
 
 - Chaque étudiant récupère le fichier `TAC.txt` sur Github.
-- L'étudiant 1 modifie la colonne `Rate` et le second la colonne `L2L4`.
+- Chaque étudiant fait une copie de `TAC.txt` et nomme le nouveau fichier `TAC_modifie.txt`.
+- L'étudiant 1 modifie la colonne `Rate` et le second la colonne `L2L4` dans le nouveau fichier.
 - Chaque étudiant utilise Git pour garder une trace de ces modifications.
-- Chaque étudiant pousse ces modifications sur Github.
+- Chaque étudiant pousse le nouveau fichier et ses modifications sur Github.
 
-### EXERCICE 3:
+### LITTERATE PROGRAMMING
+Chaque paire d'étudiants doit réaliser le calcul de l'activité cumulée pour chaque organe contenu dans le fichier `TAC_modifie.txt`.
+#### Les outils
+Il est possible d'utiliser les outils suivants:
+- Python/Jupyter-notebook
+- Python/Markdown/Pweave
+ou 
+- RStudio/knitR/Markdown
+### 
