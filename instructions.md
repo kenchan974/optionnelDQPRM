@@ -53,6 +53,8 @@ with open('nom_de_votre_nouveau_fichier', 'w') as f_out:
 	# utiliser par exemple la fonction replace() 
 ```		
 ### EXERCICE 3:
-Créer un graphique (ou plusieurs) qui affiche(nt) les courbes d'activités en fonction du temps et insérer le graphique dans le document 'rapport.md'.
+Ouvrir le fichier `TAC_modifie.txt` à l'aide de la méthode `read_csv` de la bibliothèque `pandas`.
 ### EXERCICE 4:
+Créer un graphique (ou plusieurs) qui affiche(nt) les courbes d'activités en fonction du temps et insérer le graphique dans le document 'rapport.md'.
+### EXERCICE 5:
 Calculer l'aire sous la courbe pour chacun des organes d'intérêt et noter directement les valeurs dans le rapport (sous forme de tableau pour les plus aguerris).
