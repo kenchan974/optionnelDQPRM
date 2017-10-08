@@ -1,0 +1,32 @@
+---
+title: "demo utilisation R/knitr"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+Ce document est un document au format R mardown. Markdown permet à l'aide d'un simple formatage syntaxique de créer des documents au format HTML, PDF et MS Word. Pour plus de détails sur l'utilisation de R Markdown, vous pouvez consulter le site <http://rmarkdown.rstudio.com>.
+
+Pour générer ce document qui inclut aussi bien les données que les traitements associés à ces données, il faut cliquer sur le bouton knit. knit executera toutes les instructions R placées dans les `chunck` matérialisés par les 3 guillemets ouvrants et fermants.
+
+```{r}
+setwd("~/Documents/cours/DQPRM/optionnel/2017/TD")
+df = read.csv('./datas/vol_p1.tsv',sep='\t')
+summary(df['Volume.cc'])
+```
+
+## Graphiques
+
+Il est possible aussi de créer des graphiques à partir des données calculées dans une autre cellule.
+
+```{r pressure, echo=FALSE}
+boxplot(log(df['Volume.cc']))
+```
+
+Notez que la commande `echo = FALSE` ajouté au chunck permet d'éviter de sortir dans le document le code R servant à générer le graphique.

@@ -1,0 +1,35 @@
+% Démo d'utilisation Python/Pweave
+% Les étudiants de DQPRM
+
+
+
+## Markdown
+Ce document est un document au format markdown. Markdown permet à l'aide d'un simple formatage syntaxique de créer des documents au format HTML, PDF et MS Word. 
+
+```python 
+import pandas as pd
+df = pd.read_csv('./datas/vol_p1.tsv', sep='\t')
+print(df['Volume cc'].describe())
+```
+
+## Graphiques
+
+Il est possible aussi de créer des graphiques à partir des données calculées dans une autre cellule.
+
+```{python, echo = False}
+import numpy as np
+import matplotlib.pyplot as plt
+
+plt.boxplot(np.log(df['Volume cc']));
+plt.show();
+```
+
+Notez que la commande `echo = FALSE` ajouté au chunck permet d'éviter de sortir dans le document le code python servant à générer le graphique.
+
+## Générer le document
+
+Pour générer le rapport, il faut ouvrir un terminal et lancer la commande
+
+```bash
+pweave demo_Pweave.pmd -f pandoc2html
+```
