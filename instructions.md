@@ -1,5 +1,5 @@
 # Instructions
-ce fichier décrit les instructions nécessaires aux étudiants de l'optionnel du DQPRM 2017 pour la réalisation des travaux dirigées.
+Ce fichier décrit les instructions nécessaires aux étudiants de l'optionnel du DQPRM 2017 pour la réalisation des travaux dirigées.
 ## Travail par paire
 Les étudiants doivent travailler en *binome* sur 2 ordinateurs différents pour mettre en pratique les concepts développés sur `GIT` durant la formation.
 ## Récupération du dépôt
