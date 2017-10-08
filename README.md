@@ -5,7 +5,10 @@ Ce fichier décrit les instructions nécessaires aux étudiants de l'optionnel d
 ## Instructions
 
 ### Travail par paire
-Les étudiants doivent travailler en *binome* sur 2 ordinateurs différents pour mettre en pratique les concepts développés sur `GIT`.
+Les étudiants doivent travailler en *binome* sur 2 ordinateurs différents pour mettre en pratique les concepts développés sur `GIT` durant la formation.
+### Récupération du dépôt
+    Il faut récupérer le fichier de travail sur ce site [[https://github.com/ludicludo/optionnelDQPRM][github]].
+    Dans un terminal, créer un répertoire de travail et s'y déplacer. Lancer la commande `git clone https://github.com/ludicludo/optionnelDQPRM`
 
 ### EXERCICE 1:
 
